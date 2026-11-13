@@ -9,6 +9,8 @@ A jump off point is the paper "Collective responses of flocking sheep (Ovis arie
 
 We aim to model these behaviors. Java code will be used.
 
+The report for our progress can be found at https://www.overleaf.com/project/6ae9ad2bda054dfc3f24fa3d/share#f4f74537224b2ce89bc3a88d6da158175baf27b9137c41c3 or in the project files (as "Collective_Behavior_Seminar_paper1.pdf)
+
 Milestone 1:
 Provide an overview of existing literature regarding the collective behaviors in sheep flocks
 

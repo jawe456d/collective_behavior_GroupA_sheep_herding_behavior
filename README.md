@@ -1,5 +1,5 @@
 # Sheep herding behaviour
-### Collective Behaviour, Group 1, 2026/2027 Winter Semester
+### Collective Behaviour, Group A, 2026/2027 Winter Semester
 
 * * *
 

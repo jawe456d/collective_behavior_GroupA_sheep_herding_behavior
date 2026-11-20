@@ -12,6 +12,13 @@
 
 * * * 
 
+## Running the simulation
+
+You can execute mvn clean javafx:run in the terminal to run the simulation.
+Please note that before the end of the project, the simulation could be unfunctional.
+
+* * * 
+
 ## Project Description
 
 This project aims to simulate the collective behavior of sheep (*Ovis aries*) as they dynamically balance two primary behavioral instincts: grazing and escaping threats. When undisturbed, the herd disperses into smaller subgroups to maximize the available grazing area per individual. However, when a threat—such as a predator or a herding dog—approaches, an individual's startle response triggers a rapid "fast packing event" ([Ginelli et al., 2015](https://www.pnas.org/doi/10.1073/pnas.1503749112)), causing the sheep to tightly aggregate to reduce individual predation risk and flee together as a cohesive unit. During this evasion phase, the flock follows an oscillating, zig-zag trajectory while the herding dog continuously adapts its movement to steer and contain the group, as described in recent empirical modeling of sheep–border collie interactions ([*Communications Biology*, 2024](https://www.nature.com/articles/s42003-024-07245-8)). Once the perceived threat recedes and the herd settles down, this defensive flocking subsides and individuals gradually transition back to dispersed grazing. Grounded in these two foundational studies, our agent-based simulation is implemented in **Java**, leveraging its object-oriented architecture to encapsulate distinct behavioral states (grazing, startle/packing, and fleeing), local neighbor interactions, and adaptive predator–prey dynamics.
@@ -42,24 +49,45 @@ Reviews how evolved anti-predator strategies—such as vigilance, tight flocking
 
 7. **Sendra, Sandra, et al.** "[Smart Wireless Sensor Network to Detect and Protect Sheep and Goats to Wolf Attacks](https://doi.org/10.2174/22117407112016660012)." *Recent Advances in Communications and Networking Technology*, vol. 3, no. 1, 2014, pp. 18–28.\
    Proposes an IEEE 802.15.4/ZigBee wireless sensor network mounted on livestock collars to monitor sheep and goat heart rates and body temperatures overnight. When five or more animals exhibit simultaneous spikes in vital signs within five minutes, an intelligent tagging algorithm classifies the event as a collective stress episode. Upon detecting a likely wolf attack or theft, the system triggers audible and visual deterrents while alerting the farmer via SMS and phone call.
+* * *
+
+## Goals
+
+1. Implementation of the Java structure. - *Done*
+2. Implementation of a “dummy sheep” with simple instincts, tested by
+visual display. - *Done*
+3. Implementation of escaping and grazing states, tested by click: the mouse
+click acts as a threat to test the sheep’s reaction. - *WIP*
+4. Implementation of the herding dog, tested by tracing the trajectories of
+the dog and the herd to reproduce the zig-zag observations of Jadhav et
+al. - *TODO*
+5. Further steps could include potential add-ins, like predators, obstacles,
+visual effects, ...
 
 * * *
 
 ## Milestones
 
 1. **First report - 13/11/26**
-_Goal:_ Provide an overview of existing literature regarding the collective behaviors in sheep flocks
-_State:_ You can check our report in [pdf](<./Collective_behaviour_Seminar_Paper_1.pdf>) or
+_Goal:_ Provide an overview of existing literature regarding the collective behaviors in sheep flocks, explanation of our approach to model it
+_Links:_ You can check our report in [pdf](<./Collective_behaviour_Seminar_Paper_1.pdf>) or
 [overleaf](https://www.overleaf.com/project/6ae9ad2bda054dfc3f24fa3d/share#f4f74537224b2ce89bc3a88d6da158175baf27b9137c41c3)
 
 2. **Second report - 11/12/26**
-_Goal:_ Model basic behavior (spreading out to graze when relaxed, basic startle response)
+_Goal:_ Polish the previous paper based on feedbacks, detail verification methods, following the IMRAD (Introduction, Methods, Results and Discussion) architecture for scientific writing. At this point, our model should handle sheeps Foraging and Escaping behaviour, and enable to simulate threats using mouse position on the screen.
 
 3. **Final report - 08/01/26**
-_Goal:_ Model the more complex fleeing behaviors and the movement of the herding dog
+_Goal:_ The final 6 pages project report. The introduction must be concise, mention relevant existing research and use supporting research to present the problem, as well as reasons why you deem your solution to be of impact. It should be written in a narrative form, leading towards you thesis. The methods section must present details about your approach as well as the methodology employed for evaluation. Again it should be concise and provide enough details that one could reimplement your solution. The results section should include some form of a comparison with previous research. In the discussion section discuss your results in view of previous research and provide some ideas for future work. Model the more complex fleeing behaviors and the movement of the herding dog
 
 5. **Final presentation - 08/01/26**
+_Goal:_ A 5 minutes persentation, on the following four concepts:
+- a) provide a general overview of the problem and why it should interest anyone
+- b) what was your starting goal and what were you able to achieve
+- c) what were the biggest challenges and how you solved them
+- d) what would you do differently, should you start all over again
 
+7. **Presentation video - 08/01/26**
+8. _Goal:_ A 3 minutes narrated video in mp4 format rendered at 1280x720@30fps. Display a running simulation and focus on base paper, motivation, reproduction, modifications, challenges and potential future work; expose at max 3 principal conclusions that you can derive based on your results.
 * * *
 
 

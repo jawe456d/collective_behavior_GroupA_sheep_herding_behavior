@@ -49,7 +49,7 @@ Reviews how evolved anti-predator strategies—such as vigilance, tight flocking
 
 1. **First report - 13/11/26**
 _Goal:_ Provide an overview of existing literature regarding the collective behaviors in sheep flocks
-_State:_ You can check our report in [pdf](<./Collective_Behavior_Seminar_paper-1.pdf>) or
+_State:_ You can check our report in [pdf](<./Collective_behaviour_Seminar_Paper_1.pdf>) or
 [overleaf](https://www.overleaf.com/project/6ae9ad2bda054dfc3f24fa3d/share#f4f74537224b2ce89bc3a88d6da158175baf27b9137c41c3)
 
 2. **Second report - 11/12/26**

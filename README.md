@@ -14,7 +14,7 @@
 
 ## Running the simulation
 
-You can execute 'mvn clean javafx:run' in the terminal to run the simulation.
+You can execute `mvn clean javafx:run` in the terminal to run the simulation.
 Please note that before the end of the project, the simulation could be unfunctional.
 
 * * * 

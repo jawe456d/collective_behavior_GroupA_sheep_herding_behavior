@@ -20,10 +20,6 @@ This project aims to simulate the collective behavior of sheep (*Ovis aries*) as
 
 ## Starting Papers
 
-The order reflect the importance of each paper to our project:
-
-## Starting Papers
-
 The order reflects the importance of each paper to our project:
 
 1. **Jadhav, Vivek, et al.** "[Collective Responses of Flocking Sheep to a Herding Dog](https://doi.org/10.1038/s42003-024-07232-9)." *Communications Biology*, vol. 7, no. 1, 2024, p. 1543.\
